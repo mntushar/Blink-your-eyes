@@ -39,6 +39,6 @@ trap 'exit' INT TERM
 
 while true; do
   gnome-terminal -- bash -lc "$child_script"
-  sleep 60   # 20 minutes
+  sleep 1200   # 20 minutes
 done
 
